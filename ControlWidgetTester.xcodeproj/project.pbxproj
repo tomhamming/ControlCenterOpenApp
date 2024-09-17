@@ -44,6 +44,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F78F639E2C9A2E660075149B /* Exceptions for "ControlWidgets" folder in "ControlWidgetTester" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ControlWidgetsControl.swift,
+			);
+			target = F7C9DF632C9A236D00F4671F /* ControlWidgetTester */;
+		};
 		F7C9DF762C9A236E00F4671F /* Exceptions for "ControlWidgetTester" folder in "ControlWidgetTester" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -72,6 +79,7 @@
 		F7C9DF862C9A23A100F4671F /* ControlWidgets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				F78F639E2C9A2E660075149B /* Exceptions for "ControlWidgets" folder in "ControlWidgetTester" target */,
 				F7C9DF962C9A23A100F4671F /* Exceptions for "ControlWidgets" folder in "ControlWidgetsExtension" target */,
 			);
 			path = ControlWidgets;

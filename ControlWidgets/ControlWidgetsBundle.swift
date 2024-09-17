@@ -13,5 +13,6 @@ struct ControlWidgetsBundle: WidgetBundle {
     var body: some Widget {
         ControlWidgets()
         ControlWidgetsControl()
+        LaunchAppControl()
     }
 }
