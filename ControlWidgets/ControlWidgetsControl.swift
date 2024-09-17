@@ -48,6 +48,8 @@ struct LaunchAppIntent: ControlConfigurationIntent {
     
     @MainActor
     func perform() async throws -> some IntentResult & OpensIntent {
+        UserDefaults.standard.setValue("This text came from the control center widget!", forKey: "IntentAction")
+        
         let url = URL(string: "otcontrolwidget://test")!
         return .result(opensIntent: OpenURLIntent(url))
     }
